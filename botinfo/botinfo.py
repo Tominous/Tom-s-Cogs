@@ -34,8 +34,8 @@ class BotInfo:
         ret += "Otherwise, my current prefixes are " * self.prefixes
 		ret += "Join https://discord.gg/hr8CCwz for more information!"
 		ret += "**Add the bots >> **"
-		ret += "**MicroCreeper >>** https://discordapp.com/oauth2/authorize?scope=bot&client_id=242265456629514240&permissions=2146958399 .\n"
-		ret += "**CreeperTunes >>** https://discordapp.com/oauth2/authorize?scope=bot&client_id=242729964477087755&permissions=36703232 .\n"
+		ret = bold("MicroCreeper >> https://discordapp.com/oauth2/authorize?scope=bot&client_id=242265456629514240&permissions=2146958399 .\n")
+		ret = bold("CreeperTunes >>** https://discordapp.com/oauth2/authorize?scope=bot&client_id=242729964477087755&permissions=36703232 .\n")
         ret += " and you can see all of my commands by running .\n"
         ret += inline(self.prefixes + "help")
         ret += "\n\n"
